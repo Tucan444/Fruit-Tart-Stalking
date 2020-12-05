@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fa311b;
+}
+
+.menu_item, .menu_item_link{
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+#logo{
+    cursor: pointer;
+    border: 5px solid #f00543;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+#logo:hover{
+    border-color:  #a3042e;
+}
+
+#navbar_items {
+    list-style: none;
+}
+
+#navbar_items li{
+    display: inline-block;
+    padding: 0px 20px;
+    border: 5px solid #f00543;
+    border-radius: 20px;
+    background-color: #ff184e;
+}
+
+#navbar_items li a{
+    background-color: #ff184e;
+    transition: all 0.3s ease 0s;
+}
+
+#navbar_items li a:hover {
+    color:#fafafa;
+}
+
+.footer{
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+/* css for main program here */
+
+#title{
+    margin: 1% 10% 1% 10%;
+    padding: 3%;
+    border: 5px solid #f00543;
+    border-radius: 20px;
+    background-color: #ff184e;
+    transition: all 0.3s ease 0s;
+}
+
+#title:hover{
+    border-color:  #a3042e;
+}
+
+#title_text{
+    background-color: #ff184e;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-left: 2%;
+}
+
+#description{
+    margin: 1% 10% 1% 10%;
+    padding: 3%;
+    border: 5px solid #f00543;
+    border-radius: 20px;
+    background-color: #ff184e;
+    transition: all 0.3s ease 0s;
+}
+
+#description:hover{
+    border-color:  #a3042e;
+}
+
+#description_text{
+    background-color: #ff184e;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#image_main{
+    margin: 1% 10% 1% 10%;
+    border: 6px solid #f00543;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    max-width: 80%;
+}
+
+#image_main:hover{
+    border-color:  #a3042e;
+}
+
+#image_main0{
+    border: 6px solid #f00543;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+
+#image_main0:hover{
+    border-color:  #a3042e;
+}
+
+#main_images {
+    list-style: none;
+    border: 6px solid #ff759a;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    border-style: hidden;
+}
+
+#main_images li{
+    display: inline-block;
+}
+
+#main_images:hover{
+    border-color:  #ffb5c9;
+}
