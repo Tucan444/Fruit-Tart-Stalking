@@ -36,7 +36,7 @@ function loadMainPage() {
 
     title.innerHTML = "Introduction";
     description.innerHTML = main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/general/general_image.png";
+    main_image.src = "assets/images/general/general_image.png";
 }
 
 
@@ -45,7 +45,7 @@ function InoSakura() {
 
     title.innerHTML = "Ino Sakura";
     description.innerHTML = ino_main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/InoSakura/ino_main.png";
+    main_image.src = "assets/images/InoSakura/ino_main.png";
 }
 
 
@@ -56,8 +56,8 @@ function RokoSekino() {
     main_images.style.borderStyle = "solid";
     title.innerHTML = "Roko Sekino";
     description.innerHTML = roko_main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/RokoSekino/roko_main.jpg";
-    main_image0.src = "../Fruit-Tart-Stalking/assets/images/RokoSekino/roko_second.jpg";
+    main_image.src = "assets/images/RokoSekino/roko_main.jpg";
+    main_image0.src = "assets/images/RokoSekino/roko_second.jpg";
     main_image0.style.visibility = "visible";
 }
 
@@ -69,8 +69,8 @@ function HayuNukui() {
     main_images.style.borderStyle = "solid";
     title.innerHTML = "Hayu Nukui";
     description.innerHTML = hayu_main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/HayuNukui/hayu_main.jpg";
-    main_image0.src = "../Fruit-Tart-Stalking/assets/images/HayuNukui/hayu_second.jpg";
+    main_image.src = "assets/images/HayuNukui/hayu_main.jpg";
+    main_image0.src = "assets/images/HayuNukui/hayu_second.jpg";
     main_image0.style.visibility = "visible";
 }
 
@@ -80,7 +80,7 @@ function NinaMaehara() {
 
     title.innerHTML = "Nina Maehara";
     description.innerHTML = nina_main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/NinaMaehara/nina_main.jpg";
+    main_image.src = "assets/images/NinaMaehara/nina_main.jpg";
 }
 
 
@@ -89,7 +89,7 @@ function HemoMidori() {
 
     title.innerHTML = "Hemo Midori";
     description.innerHTML = hemo_main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/HemoMidori/hemo_main.jpg";
+    main_image.src = "assets/images/HemoMidori/hemo_main.jpg";
 }
 
 
@@ -98,7 +98,7 @@ function HohoKajino() {
 
     title.innerHTML = "Hoho Kajino";
     description.innerHTML = hoho_main_desc;
-    main_image.src = "../Fruit-Tart-Stalking/assets/images/HohoKajino/hoho_main.jpg";
+    main_image.src = "assets/images/HohoKajino/hoho_main.jpg";
 }
 
 
