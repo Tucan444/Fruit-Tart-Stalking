@@ -23,14 +23,17 @@ header{
 }
 
 #logo{
+    position: relative;
     cursor: pointer;
     border: 5px solid #f00543;
     border-radius: 20px;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s, top 0.15s ease-in-out;
+    top: 0px;
 }
 
 #logo:hover{
     border-color:  #a3042e;
+    top: -8px;
 }
 
 #navbar_items {
@@ -38,11 +41,18 @@ header{
 }
 
 #navbar_items li{
+    position: relative;
     display: inline-block;
     padding: 0px 20px;
     border: 5px solid #f00543;
     border-radius: 20px;
     background-color: #ff184e;
+    transition: right 0.15s ease-in-out;
+    right: 0px;
+}
+
+#navbar_items li:hover{
+    right: -2px;
 }
 
 #navbar_items li a{
@@ -55,26 +65,39 @@ header{
 }
 
 .footer{
+    cursor: pointer;
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #000000;
     margin-left: 20px;
+    transition: all 0.4s ease 0s;
+}
+
+.footer:hover{
+    color: #ffffff;
+}
+
+#link {
+    text-decoration: none;
 }
 
 /* css for main program here */
 
 #title{
+    position: relative;
     margin: 1% 10% 1% 10%;
     padding: 3%;
     border: 5px solid #f00543;
     border-radius: 20px;
     background-color: #ff184e;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s, top 0.15s ease-in-out;
+    top: 0px;
 }
 
 #title:hover{
     border-color:  #a3042e;
+    top: -8px;
 }
 
 #title_text{
@@ -86,16 +109,19 @@ header{
 }
 
 #description{
+    position: relative;
     margin: 1% 10% 1% 10%;
     padding: 3%;
     border: 5px solid #f00543;
     border-radius: 20px;
     background-color: #ff184e;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s, top 0.15s ease-in-out;
+    top: 0px;
 }
 
 #description:hover{
     border-color:  #a3042e;
+    top: -8px;
 }
 
 #description_text{
@@ -130,11 +156,13 @@ header{
 }
 
 #main_images {
+    position: relative;
     list-style: none;
     border: 6px solid #ff759a;
     border-radius: 20px;
-    transition: all 0.3s ease 0s;
+    transition: top 0.15s ease-in-out, border-color 0.3s ease-in-out;
     border-style: hidden;
+    top: 0px;
 }
 
 #main_images li{
@@ -143,4 +171,5 @@ header{
 
 #main_images:hover{
     border-color:  #ffb5c9;
+    top: -8px;
 }
