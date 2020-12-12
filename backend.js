@@ -36,7 +36,7 @@ function loadMainPage() {
 
     title.innerHTML = "Introduction";
     description.innerHTML = main_desc;
-    main_image.src = "assets/images/general/general_image.png";
+    main_image.src = "./assets/images/general/general_image.png";
 }
 
 
